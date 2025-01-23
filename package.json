@@ -1,7 +1,7 @@
 {
   "name": "my-vite-starter",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -31,7 +31,7 @@
     "jsdom": "^26.0.0",
     "postcss": "^8.5.1",
     "tailwindcss": "^3.4.17",
-    "typescript": "~5.6.2",
+    "typescript": "~5.7.0",
     "typescript-eslint": "^8.18.2",
     "vite": "^6.0.5",
     "vitest": "^3.0.3"
