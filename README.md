@@ -6,10 +6,11 @@ Core components:
 - Bun (package manager)
 - Vite
 - TypeScript
-- React
+- React 19
+- Tailwind 4
 - Vitest
 - eslint 9
-- prettier
+- prettier + tailwind prettier plugin
 
 This template provides a minimal setup to get React working in Vite with HMR.
 
