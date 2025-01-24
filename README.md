@@ -2,15 +2,16 @@
 
 Core components:
 
-- Node.js
-- Bun (package manager)
-- Vite
-- TypeScript
-- React 19
-- Tailwind 4
-- Vitest
-- eslint 9
-- prettier + tailwind prettier plugin
+- [Node.js](https://nodejs.org/)
+- [Bun](https://bun.sh/)
+  - package manager
+  - [tests](https://bun.sh/guides/test) with `bun:test`
+- [Vite](https://vite.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [React 19](https://react.dev/)
+- [Tailwind 4](https://tailwindcss.com/)
+- [eslint](https://eslint.org/docs/latest/use/getting-started) 9
+- [prettier](https://prettier.io/) + tailwind prettier plugin
 
 This template provides a minimal setup to get React working in Vite with HMR.
 
