@@ -1,10 +1,9 @@
 import { render, screen } from '@testing-library/react';
+import { expect, test } from 'bun:test';
 import App from './App';
 
-describe('App', () => {
-  it('renders', () => {
-    render(<App />);
+test('renders', () => {
+  render(<App />);
 
-    expect(screen.getByText('My Vite Starter')).toBeInTheDocument();
-  });
+  expect(screen.getByText('My Vite Starter')).toBeInTheDocument();
 });
