@@ -10,8 +10,8 @@
         "react-dom": "^19.0.0",
       },
       "devDependencies": {
-        "@eslint/js": "^9.18.0",
-        "@happy-dom/global-registrator": "^16.7.2",
+        "@eslint/js": "^9.19.0",
+        "@happy-dom/global-registrator": "^17.0.0",
         "@testing-library/dom": "^10.4.0",
         "@testing-library/jest-dom": "^6.6.3",
         "@testing-library/react": "^16.2.0",
@@ -20,7 +20,7 @@
         "@types/react-dom": "^19.0.3",
         "@vitejs/plugin-react-swc": "^3.7.2",
         "autoprefixer": "^10.4.20",
-        "eslint": "^9.18.0",
+        "eslint": "^9.19.0",
         "eslint-config-prettier": "^10.0.1",
         "eslint-plugin-react-hooks": "^5.1.0",
         "eslint-plugin-react-refresh": "^0.4.18",
@@ -109,7 +109,7 @@
 
     "@eslint/plugin-kit": ["@eslint/plugin-kit@0.2.5", "", { "dependencies": { "@eslint/core": "^0.10.0", "levn": "^0.4.1" } }, "sha512-lB05FkqEdUg2AA0xEbUz0SnkXT1LcCTa438W4IWTUh4hdOnVbQyOJ81OrDXsJk/LSiJHubgGEFoR5EHq1NsH1A=="],
 
-    "@happy-dom/global-registrator": ["@happy-dom/global-registrator@16.7.2", "", { "dependencies": { "happy-dom": "^16.7.2" } }, "sha512-xz1OO4DNr8Wki0sGG4VF/tM7mY6/cf0y0rxBhMzfk2LXqMA0DUFOTv9hQtHSZHGEhfJ2ZUJa02WAp4Ihq1MT8Q=="],
+    "@happy-dom/global-registrator": ["@happy-dom/global-registrator@17.0.0", "", { "dependencies": { "happy-dom": "^17.0.0" } }, "sha512-VvWAE2FVh2EiRp0fmFCFaO8AZVn9Wjjcp5kWZ6Kj8b6tTFRdulioSxuJsVY3pOfrAkSQ5Kmxf8PeH2FPoUeFJg=="],
 
     "@humanfs/core": ["@humanfs/core@0.19.1", "", {}, "sha512-5DyQ4+1JEUzejeK1JGICcideyfUbGixgS9jNgex5nqkW+cY7WZhxBigmieN5Qnw9ZosSNVC9KQKyb+GUaGyKUA=="],
 
@@ -373,7 +373,7 @@
 
     "graphemer": ["graphemer@1.4.0", "", {}, "sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag=="],
 
-    "happy-dom": ["happy-dom@16.7.2", "", { "dependencies": { "webidl-conversions": "^7.0.0", "whatwg-mimetype": "^3.0.0" } }, "sha512-zOzw0xyYlDaF/ylwbAsduYZZVRTd5u7IwlFkGbEathIeJMLp3vrN3cHm3RS7PZpD9gr/IO16bHEswcgNyWTsqw=="],
+    "happy-dom": ["happy-dom@17.0.0", "", { "dependencies": { "webidl-conversions": "^7.0.0", "whatwg-mimetype": "^3.0.0" } }, "sha512-jGuUr3UrgMzt1Mopyof3RzD49/GudAp1suP5KFU+EvNXmqUAMXpxux2zEJbabE1YXs0APrY61iRZ0BKMMWCGTg=="],
 
     "has-flag": ["has-flag@4.0.0", "", {}, "sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ=="],
 
