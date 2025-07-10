@@ -25,15 +25,7 @@ bun test
 
 ## Main Component
 
-The main UI is rendered by the `App` component:
-
-```tsx
-import App from './App';
-
-function Root() {
-  return <App />;
-}
-```
+- See [`src/App.tsx`](src/App.tsx) for the main application component and [`src/main.tsx`](src/main.tsx) for the entry point.
 
 ## Example Test
 
