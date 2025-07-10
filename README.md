@@ -17,7 +17,7 @@ A minimal, modern React + Vite starter template using Bun, TypeScript, Tailwind 
 bun install
 
 # Start the development server
-bun run dev
+bun dev
 
 # Run tests
 bun test
@@ -41,18 +41,12 @@ function Root() {
 
 ## Scripts
 
-- `bun run dev` – Start the development server
+- `bun dev` – Start the development server
 - `bun run build` – Build for production
 - `bun test` – Run tests
-- `bun run lint` – Lint the codebase
-- `bun run format` – Format code with Prettier
+- `bun lint` – Lint the codebase
+- `bun format` – Format code with Prettier
 
 ## Tooling
 
-- **Linting:** Uses strict TypeScript ESLint config (`tseslint.configs.strictTypeChecked`)
-- **Testing:** Uses Bun's test runner with Testing Library and jest-dom matchers
-- **Styling:** Tailwind CSS is imported globally via `src/index.css`
-
-## License
-
-MIT
+- **Linting:** Uses strict TypeScript ESLint config (`
