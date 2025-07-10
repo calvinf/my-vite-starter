@@ -37,13 +37,7 @@ function Root() {
 
 ## Example Test
 
-```tsx
-import { render, screen } from '@testing-library/react';
-import App from './App';
-
-render(<App />);
-expect(screen.getByText('My Vite Starter')).toBeInTheDocument();
-```
+- See [`src/App.test.tsx`](src/App.test.tsx) for an example test using Testing Library and Bun's test runner.
 
 ## Scripts
 
