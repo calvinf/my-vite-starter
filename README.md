@@ -5,7 +5,7 @@ A minimal, modern React + Vite starter template using Bun, TypeScript, Tailwind 
 ## Features
 
 - ⚡️ Fast development with [Vite](https://vite.dev/) and [SWC](https://swc.rs/)
-- 🦋 [React 19](https://react.dev/) with [TypeScript](https://www.typescriptlang.org/)
+- ⚛️ [React 19](https://react.dev/) with [TypeScript](https://www.typescriptlang.org/)
 - 🎨 [Tailwind CSS 4](https://tailwindcss.com/) for utility-first styling
 - 🧹 [ESLint 9](https://eslint.org/) and [Prettier](https://prettier.io/) for code quality and formatting
 - 🧪 [Bun](https://bun.sh/) for package management and testing
