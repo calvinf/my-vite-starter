@@ -45,8 +45,9 @@ function Root() {
 - `bun run build` – Build for production
 - `bun test` – Run tests
 - `bun lint` – Lint the codebase
-- `bun format` – Format code with Prettier
 
 ## Tooling
 
-- **Linting:** Uses strict TypeScript ESLint config (`
+- **Linting:** Uses strict TypeScript ESLint config (`tseslint.configs.strictTypeChecked`)
+- **Testing:** Uses Bun's test runner with Testing Library and jest-dom matchers
+- **Styling:** Tailwind CSS is imported globally via `src/index.css`
