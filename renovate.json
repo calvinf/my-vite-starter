@@ -1,0 +1,61 @@
+{
+  "packageRules": [
+    {
+      "description": "Restrict @types/node to the latest node LTS version",
+      "matchManagers": ["npm"],
+      "matchPackageNames": ["@types/node"],
+      "allowedVersions": "/^24\\./"
+    },
+    {
+      "description": "Restrict React to v19.x",
+      "matchPackageNames": ["react", "react-dom"],
+      "allowedVersions": "/^19\\./"
+    },
+    {
+      "description": "Restrict Tailwind CSS to v4.x",
+      "matchPackageNames": ["tailwindcss", "@tailwindcss/vite"],
+      "allowedVersions": "/^4\\./"
+    },
+    {
+      "description": "Group React ecosystem packages",
+      "matchPackagePatterns": [
+        "^react$",
+        "^react-dom$",
+        "^@types/react",
+        "^@vitejs/plugin-react"
+      ],
+      "groupName": "react ecosystem"
+    },
+    {
+      "description": "Group Testing Library packages",
+      "matchPackagePatterns": ["^@testing-library/"],
+      "groupName": "testing library"
+    },
+    {
+      "description": "Group ESLint packages",
+      "matchPackagePatterns": [
+        "^eslint",
+        "^@eslint/",
+        "^typescript-eslint",
+        "^globals$"
+      ],
+      "groupName": "eslint ecosystem"
+    },
+    {
+      "description": "Group TypeScript type definitions",
+      "matchPackagePatterns": ["^@types/"],
+      "groupName": "typescript types"
+    },
+    {
+      "description": "Group Tailwind CSS packages",
+      "matchPackagePatterns": [
+        "^tailwindcss",
+        "^@tailwindcss/",
+        "^prettier-plugin-tailwindcss"
+      ],
+      "groupName": "tailwind css"
+    }
+  ],
+  "schedule": ["before 10am on monday"],
+  "timezone": "America/Los_Angeles"
+}
