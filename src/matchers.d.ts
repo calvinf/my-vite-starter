@@ -1,4 +1,5 @@
 /* eslint-disable @typescript-eslint/no-empty-object-type */
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { TestingLibraryMatchers } from '@testing-library/jest-dom/matchers';
 import { Matchers, AsymmetricMatchers } from 'bun:test';
 
