@@ -32,9 +32,9 @@
       "groupName": "testing library"
     },
     {
-      "description": "Group Oxlint packages",
-      "matchPackagePatterns": ["^oxlint", "^@oxlint/"],
-      "groupName": "oxlint"
+      "description": "Group Oxc packages",
+      "matchPackagePatterns": ["^oxlint", "^@oxlint/", "^oxfmt"],
+      "groupName": "oxc"
     },
     {
       "description": "Group TypeScript type definitions",
@@ -43,11 +43,7 @@
     },
     {
       "description": "Group Tailwind CSS packages",
-      "matchPackagePatterns": [
-        "^tailwindcss",
-        "^@tailwindcss/",
-        "^prettier-plugin-tailwindcss"
-      ],
+      "matchPackagePatterns": ["^tailwindcss", "^@tailwindcss/"],
       "groupName": "tailwind css"
     }
   ],

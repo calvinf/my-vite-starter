@@ -1,13 +1,13 @@
 # My Vite Starter
 
-A minimal, modern React + Vite starter template using Bun, TypeScript, Tailwind CSS, Oxlint, and Prettier. Ideal for rapid prototyping and modern web development.
+A minimal, modern React + Vite starter template using Bun, TypeScript, Tailwind CSS, Oxlint, and Oxfmt. Ideal for rapid prototyping and modern web development.
 
 ## Features
 
 - ⚡️ Fast development with [Vite](https://vite.dev/) and [SWC](https://swc.rs/)
 - ⚛️ [React 19](https://react.dev/) with [TypeScript](https://www.typescriptlang.org/)
 - 🎨 [Tailwind CSS 4](https://tailwindcss.com/) for utility-first styling
-- 🧹 [Oxlint](https://oxc.rs/docs/guide/usage/linter) and [Prettier](https://prettier.io/) for code quality and formatting
+- 🧹 [Oxlint](https://oxc.rs/docs/guide/usage/linter) and [Oxfmt](https://oxc.rs/docs/guide/usage/formatter) for code quality and formatting
 - 🧪 [Bun](https://bun.sh/) for package management and testing
 
 ## Quick Start
