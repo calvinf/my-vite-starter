@@ -32,14 +32,9 @@
       "groupName": "testing library"
     },
     {
-      "description": "Group ESLint packages",
-      "matchPackagePatterns": [
-        "^eslint",
-        "^@eslint/",
-        "^typescript-eslint",
-        "^globals$"
-      ],
-      "groupName": "eslint ecosystem"
+      "description": "Group Oxlint packages",
+      "matchPackagePatterns": ["^oxlint", "^@oxlint/"],
+      "groupName": "oxlint"
     },
     {
       "description": "Group TypeScript type definitions",

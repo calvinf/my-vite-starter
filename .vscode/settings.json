@@ -17,7 +17,7 @@
     }
   },
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
+    "source.fixAll.oxc": "explicit"
   },
   "css.validate": false,
   "tailwindCSS.validate": true,
