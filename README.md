@@ -40,6 +40,6 @@ bun test
 
 ## Tooling
 
-- **Linting:** Uses [Oxlint](https://oxc.rs/docs/guide/usage/linter) with TypeScript and React rules (React Compiler diagnostics enabled as warnings)
+- **Linting:** Uses [Oxlint](https://oxc.rs/docs/guide/usage/linter) correctness defaults with TypeScript, React, Unicorn, and Oxc plugins (React Compiler diagnostics enabled as warnings)
 - **Testing:** Uses Bun's test runner with Testing Library and jest-dom matchers
 - **Styling:** Tailwind CSS is imported globally via `src/index.css`
