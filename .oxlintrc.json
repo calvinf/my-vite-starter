@@ -11,7 +11,7 @@
   "rules": {
     "react/rules-of-hooks": "error",
     "react/exhaustive-deps": "warn",
-    "react/react-compiler": "warn",
+    "react/react-compiler": "error",
     "react/only-export-components": [
       "warn",
       {
