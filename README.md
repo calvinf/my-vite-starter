@@ -1,6 +1,6 @@
 # My Vite Starter
 
-A minimal, modern React + Vite starter template using Bun, TypeScript, Tailwind CSS, Oxlint, and Oxfmt. Ideal for rapid prototyping and modern web development.
+A minimal, modern React + Vite starter template using Bun, TypeScript, Tailwind CSS, Oxlint, Oxfmt, mise, and hk. Ideal for rapid prototyping and modern web development.
 
 ## Features
 
@@ -13,6 +13,9 @@ A minimal, modern React + Vite starter template using Bun, TypeScript, Tailwind 
 ## Quick Start
 
 ```bash
+# Install pinned Bun, Node, and hk via mise
+mise install
+
 # Install dependencies
 bun install
 
@@ -37,9 +40,15 @@ bun test
 - `bun run build` – Build for production
 - `bun test` – Run tests
 - `bun lint` – Lint the codebase
+- `bun format` – Format the codebase
+- `mise run check` – Lint and format-check via [hk](https://hk.jdx.dev/)
+- `mise run fix` – Auto-fix lint and format via hk
 
 ## Tooling
 
+- **Tool versions:** [mise](https://mise.jdx.dev/) pins Bun, Node, and hk in `mise.toml`
+- **Git hooks:** [hk](https://hk.jdx.dev/) runs Oxfmt and Oxlint on commit/push (replaces husky + lint-staged)
 - **Linting:** Uses [Oxlint](https://oxc.rs/docs/guide/usage/linter) correctness defaults with TypeScript, React, Unicorn, and Oxc plugins (React Compiler diagnostics enforced as errors)
+- **Formatting:** Uses [Oxfmt](https://oxc.rs/docs/guide/usage/formatter)
 - **Testing:** Uses Bun's test runner with Testing Library and jest-dom matchers
 - **Styling:** Tailwind CSS is imported globally via `src/index.css`
