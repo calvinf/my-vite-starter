@@ -13,7 +13,7 @@ A minimal, modern React + Vite starter template using Bun, TypeScript, Tailwind 
 ## Quick Start
 
 ```bash
-# Install pinned Bun, Node, and hk via mise
+# Install pinned Bun and hk via mise
 mise install
 
 # Install dependencies
@@ -46,7 +46,7 @@ bun test
 
 ## Tooling
 
-- **Tool versions:** [mise](https://mise.jdx.dev/) pins Bun, Node, and hk in `mise.toml`
+- **Tool versions:** [mise](https://mise.jdx.dev/) pins Bun and hk in `mise.toml`
 - **Git hooks:** [hk](https://hk.jdx.dev/) runs Oxfmt and Oxlint on commit/push (replaces husky + lint-staged)
 - **Linting:** Uses [Oxlint](https://oxc.rs/docs/guide/usage/linter) correctness defaults with TypeScript, React, Unicorn, and Oxc plugins (React Compiler diagnostics enforced as errors)
 - **Formatting:** Uses [Oxfmt](https://oxc.rs/docs/guide/usage/formatter)
