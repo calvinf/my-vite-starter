@@ -1,7 +1,7 @@
-amends "package://github.com/jdx/hk/releases/download/v1.56.0/hk@1.56.0#/Config.pkl"
-import "package://github.com/jdx/hk/releases/download/v1.56.0/hk@1.56.0#/Builtins.pkl"
+amends "package://github.com/jdx/hk/releases/download/v2.0.0/hk@2.0.0#/Config.pkl"
+import "package://github.com/jdx/hk/releases/download/v2.0.0/hk@2.0.0#/Builtins.pkl"
 
-min_hk_version = "1.56.0"
+min_hk_version = "2.0.0"
 
 local linters = new Mapping<String, Step> {
   ["oxfmt"] = Builtins.oxfmt
@@ -10,20 +10,10 @@ local linters = new Mapping<String, Step> {
   }
 }
 
+steps = linters
+
 hooks {
-  ["pre-commit"] {
-    fix = true
-    stash = "git"
-    steps = linters
-  }
   ["pre-push"] {
-    steps = linters
-  }
-  ["fix"] {
-    fix = true
-    steps = linters
-  }
-  ["check"] {
     steps = linters
   }
 }
