@@ -1,4 +1,21 @@
 {
+  "customManagers": [
+    {
+      "customType": "regex",
+      "description": "Keep hk.pkl schema pins on the same hk release as mise.toml",
+      "managerFilePatterns": ["/^hk\\.pkl$/"],
+      "matchStrings": [
+        "package://github\\.com/jdx/hk/releases/download/v(?<currentValue>[0-9]+\\.[0-9]+\\.[0-9]+)/hk@",
+        "package://github\\.com/jdx/hk/releases/download/v[0-9]+\\.[0-9]+\\.[0-9]+/hk@(?<currentValue>[0-9]+\\.[0-9]+\\.[0-9]+)#",
+        "min_hk_version\\s*=\\s*\"(?<currentValue>[0-9]+\\.[0-9]+\\.[0-9]+)\""
+      ],
+      "datasourceTemplate": "github-releases",
+      "depNameTemplate": "hk",
+      "packageNameTemplate": "jdx/hk",
+      "extractVersionTemplate": "^v(?<version>.*)$",
+      "versioningTemplate": "semver"
+    }
+  ],
   "packageRules": [
     {
       "description": "Restrict @types/node to the latest node LTS version",

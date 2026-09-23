@@ -47,7 +47,8 @@ bun test
 ## Tooling
 
 - **Tool versions:** [mise](https://mise.jdx.dev/) pins Bun and hk in `mise.toml`
-- **Git hooks:** [hk](https://hk.jdx.dev/) runs Oxfmt and Oxlint on commit/push (replaces husky + lint-staged)
+- **Git hooks:** [hk](https://hk.jdx.dev/) runs Oxfmt and Oxlint on commit/push (replaces husky + lint-staged). The `sync-hk-version` step rewrites `hk.pkl` from the `hk` pin in `mise.toml` and stages that file on commit
+- **Dependency updates:** Renovate treats the `hk.pkl` package URLs and `min_hk_version` as the same `hk` release as `mise.toml`, so bot bumps update both files
 - **Linting:** Uses [Oxlint](https://oxc.rs/docs/guide/usage/linter) correctness defaults with TypeScript, React, Unicorn, and Oxc plugins (React Compiler diagnostics enforced as errors)
 - **Formatting:** Uses [Oxfmt](https://oxc.rs/docs/guide/usage/formatter)
 - **Testing:** Uses Bun's test runner with Testing Library and jest-dom matchers
