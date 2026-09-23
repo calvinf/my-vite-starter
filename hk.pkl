@@ -1,9 +1,16 @@
-amends "package://github.com/jdx/hk/releases/download/v2.0.0/hk@2.0.0#/Config.pkl"
-import "package://github.com/jdx/hk/releases/download/v2.0.0/hk@2.0.0#/Builtins.pkl"
+amends "package://github.com/jdx/hk/releases/download/v2.0.1/hk@2.0.1#/Config.pkl"
+import "package://github.com/jdx/hk/releases/download/v2.0.1/hk@2.0.1#/Builtins.pkl"
 
-min_hk_version = "2.0.0"
+min_hk_version = "2.0.1"
 
 local linters = new Mapping<String, Step> {
+  ["sync-hk-version"] {
+    glob = List("mise.toml", "hk.pkl")
+    stage = List("hk.pkl")
+    check_first = true
+    check = "bun scripts/sync-hk-version.ts --check"
+    fix = "bun scripts/sync-hk-version.ts"
+  }
   ["oxfmt"] = Builtins.oxfmt
   ["oxlint"] = (Builtins.ox_lint) {
     depends = List("oxfmt")
