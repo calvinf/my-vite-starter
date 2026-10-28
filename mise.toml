@@ -1,6 +1,6 @@
 [tools]
 bun = "1.4.4"
-hk = "2.8.0"
+hk = "2.9.0"
 
 [env]
 HK_MISE = "1"
